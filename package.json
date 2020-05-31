@@ -1,0 +1,23 @@
+{
+    "name": "leadsmanager-desktop",
+    "version": "0.1.0",
+    "description": "A desktop based app to help Business to handle Management with its Leads",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/felipeAraujo/LeadsManager-Desktop.git"
+    },
+    "keywords": [
+        "electron",
+        "typescript"
+    ],
+    "author": "Felipe Araújo Teixeira",
+    "license": "GPL-3.0",
+    "homepage": "https://github.com/felipeAraujo/LeadsManager-Desktop",
+    "devDependencies": {
+        "electron": "^9.0.0"
+    }
+}
