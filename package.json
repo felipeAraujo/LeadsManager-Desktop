@@ -21,7 +21,7 @@
     "author": "Felipe Araújo Teixeira",
     "license": "GPL-3.0",
     "devDependencies": {
-        "electron": "9.0.2",
+        "electron": "9.3.0",
         "tslint": "^6.1.2",
         "typescript": "^3.9.5"
     }
