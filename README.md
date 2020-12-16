@@ -19,10 +19,10 @@ Create a json file (launch.json) inside "${workspaceFolder}/.vscode/" with the f
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
-            "program": "${workspaceFolder}/src/main.ts",
+            "runtimeExecutable": "${workspaceFolder}/desktop/node_modules/.bin/electron",
+            "program": "${workspaceFolder}/desktop/src/main.ts",
             "outFiles": [
-                "${workspaceFolder}/dist/*.js"
+                "${workspaceFolder}/desktop/dist/*.js"
             ]
         }
     ]
