@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "description": "A desktop based app to help Business to handle Management with its Leads",
     "scripts": {
-        "postinstall": "cp scripts/pre-commit.sh .git/hooks/pre-commit",
+        "postinstall": "cp ../scripts/pre-commit.sh ../.git/hooks/pre-commit",
         "build": "tsc",
         "watch": "tsc -w",
         "lint": "tslint -c tslint.json -p tsconfig.json",
